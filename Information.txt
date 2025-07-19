@@ -1,0 +1,31 @@
+Padrões de nomeclatura para mensagens em commits
+
+
+CHORE - PEQUENA TAREFA
+ git commit -m "chore: removendo arquivo.txt"
+
+FIX - CORREÇÕES 
+ git commit -m "fix: correção no cálculo de média"
+
+FEAT - INCLUSÃO DE FUNCIONALIDADE
+ git commit -m "feat: inclusão de função para calcular mediana"
+
+DOCS - ATUALIZAÇÃO DE DOCUMENTAÇÃO
+
+
+Changelog
+
+Listar sua data de publicação no formato acima.
+Agrupar mudanças descrevendo seus impactos no projeto, como segue:
+
+Added/Adicionado: para novas funcionalidades.
+
+Changed/Modificado:para mudanças em funcionalidades existentes.
+
+Deprecated/Obsoleto: para funcionalidades estáveis que foram removidas das próximas versões.
+
+Removed/Removido: para funcionalidades removidas desta versão.
+
+Fixed/Consertado: para qualquer correção de bug.
+
+Security/Segurança: para incentivar usuários a atualizarem em caso de vulnerabilidades 
